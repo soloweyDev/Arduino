@@ -1,3 +1,4 @@
+#include <dht>
 #include <LiquidCrystal.h>
 #include <iarduino_RTC.h>
 
@@ -21,7 +22,7 @@ void setup()
   pf = PrintFunction::TravelingLine;
   time.begin();
   lcd.begin(16, 2);
-  //time.settime(01,56,14,30,04,18,1);
+  time.settime(15,49,14,28,07,18,7);
 }
 
 void loop()
